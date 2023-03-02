@@ -25,7 +25,7 @@ export const StatItem = styled.li`
     display: grid;
     width: 128px;
     justify-items: center;
-    :first-child{
+    :first-of-type{
         border-radius: 12px 0 0 12px;
     }
     :last-child{
