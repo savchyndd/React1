@@ -8,11 +8,9 @@ export const StatisticsWrapper = styled.section`
   border-radius: 18px;
 `
 export const StatisticsTitle = styled.h2`
+    font-size: 24px;    
     margin:0;
     margin-bottom: 18px;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
     color: #000000;
 `
 export const StatList = styled.ul`
@@ -23,8 +21,9 @@ export const StatList = styled.ul`
 `
 export const StatItem = styled.li`
     display: grid;
-    width: 128px;
     justify-items: center;
+    width: 128px;
+    padding: 6px;
     :first-of-type{
         border-radius: 12px 0 0 12px;
     }
@@ -35,12 +34,10 @@ export const StatItem = styled.li`
 export const ItemLabel = styled.span`
     font-weight: 400;
     font-size: 12px;
-    line-height: 14px;
     color: #dcdcd5;
 `
 export const ItemPercentage = styled.span`
     font-weight: 700;
     font-size: 24px;
-    line-height: 28px;
     color: #ffffff;
 `
